@@ -1,0 +1,50 @@
+{
+  "name": "@alexsun-top/nuxt-antdv-layer",
+  "type": "module",
+  "private": false,
+  "version": "0.1.0",
+  "main": "nuxt.config.ts",
+  "author": "Alex Sun",
+  "license": "MIT",
+  "keywords": [
+    "nuxt",
+    "nuxt3",
+    "antd",
+    "ant design",
+    "ant design vue",
+    "nuxt-layer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sun-ZhenXing/nuxt-antdv-layer"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": "https://github.com/Sun-ZhenXing/nuxt-antdv-layer/issues",
+  "scripts": {
+    "build": "nuxt build .demo",
+    "dev": "nuxt dev .demo",
+    "generate": "nuxt generate .demo",
+    "preview": "nuxt preview .demo",
+    "postinstall": "nuxt prepare .demo"
+  },
+  "dependencies": {
+    "@ant-design-vue/nuxt": "^1.4.1",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
+    "@pinia/nuxt": "^0.5.1",
+    "ant-design-vue": "^4.1.2",
+    "nuxt-icon": "^0.6.9",
+    "pinia": "^2.1.7",
+    "sass": "^1.71.1",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "nuxt": "^3.10.3",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  }
+}
